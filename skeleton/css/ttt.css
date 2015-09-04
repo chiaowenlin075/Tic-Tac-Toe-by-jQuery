@@ -1,0 +1,47 @@
+.ttt-grid {
+  margin: 0 auto;
+  border: 5px solid black;
+  width: 300px;
+  height: 300px;
+}
+
+.ttt-grid > li {
+  float: left;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  cursor: pointer;
+  line-height: 83px;
+}
+
+.unclicked {
+  background: gray;
+}
+
+.unclicked:hover {
+  background: yellow;
+}
+
+.clicked {
+  background: transparent;
+}
+
+.winning {
+  background: green;
+  color: white;
+}
+
+.losing {
+  color: red;
+}
+
+.ttt-grid > .winning,
+.ttt-grid > .losing {
+  cursor: default;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
