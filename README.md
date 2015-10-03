@@ -1,6 +1,12 @@
-<h1>jQuery Tic Tac Toe</h1>
-A playable browser Tic Tac Toe game based on the core game code provided by App Academy.
+## jQuery Tic Tac Toe
 
-Paired with Aiven Song.
+[Play Now][live]
+[live]: https://chiaowenlin075.github.io/jQuery-Tic-Tac-Toe
 
-Download the file and open the 'index.html' file in skeleton/html directory!
+A classic browser Tic Tac Toe game
+
+### Languages:
+- Javascript
+- jQuery
+- CSS
+- HTML
